@@ -20,7 +20,7 @@ const handler2 = () => {
     console.log('login success 2');
 }
 
-Login.on('success', handler2)
+Login.on('success', handler2);
 
 Login.on('failed', () => {
     console.log('login failed');
